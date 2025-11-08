@@ -82,6 +82,10 @@
     padding: 5px 10px;
     border: 2px solid #ff7b00;
     border-radius: 50px;
+    transform: rotate3d(0, 1, 0, 60deg)
+}
+.icons a i:hover{
+    transform: rotate3d(0, 1, 0, 60deg)
 }
 .download-btn{
     outline: none;
@@ -89,10 +93,11 @@
     background: none;
     color: #ff7b00;
     font-weight: bold;
-    border-left: 2px solid #ff7b00;
-    border-right: 2px solid #ff7b00;
-    border-radius: 5px;
+    border-left: 3px solid #ff7b00;
+    border-right: 3px solid #ff7b00;
+    border-radius: 10px;
     margin: 15px;
+     transform: skew(20deg);
     transition: all 0.5s ease;
 }
 .download-btn a{

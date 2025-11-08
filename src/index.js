@@ -9,6 +9,7 @@ import Intern from './intern';
 import Skills from './skills';
 import Animations from './animations';
 import Projects from './projects';
+import Cetifications from './Cetifications';
 import Contact from './contact';
 import AIChatBot from "./AIChatBot";
 import ScrollToTopButton from "./ScrollToTopButton";
@@ -25,6 +26,7 @@ root.render(
     <Skills/>
     <Animations/>
     <Projects/>
+    <Cetifications/>
     <Contact/>
     <AIChatBot/>
     <ScrollToTopButton/>

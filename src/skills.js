@@ -15,12 +15,13 @@ const skillsData = [
   { img: "./img/net.png", text: "asp.net" },
   { img: "./img/adobe-photoshop.png", text: "Adobe Photoshop" },
   { img: "./img/api.png", text: "API" },
+  { img: "./img/Swagger-logo.png", text: "Swagger" },
   { img: "./img/ef.png", text: "Entity Framework" },
   { img: "./img/jquery.png", text: "JQuery" },
-  { img: "./img/nextjs.png", text: "Next.js" },
+  // { img: "./img/nextjs.png", text: "Next.js" },
   { img: "./img/sql.png", text: "SQL" },
-  { img: "./img/docker.png", text: "Docker" },
-  { img: "./img/figma.png", text: "Figma" },
+  // { img: "./img/docker.png", text: "Docker" },
+  // { img: "./img/figma.png", text: "Figma" },
 ];
 
 const softskills = [
@@ -37,10 +38,7 @@ const softskills = [
   { text: "Self-Motivation" },
   { text: "Clean code writing" },
   { text: "Fast and efficient typing" },
-  // { text: "JQuery" },
-  // { text: "Next.js" },
-  // { text: "SQL" },
-  // { text: "Figma" },
+  
 ];
 
 const Skills = () => {

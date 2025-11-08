@@ -58,11 +58,12 @@ function Navbar() {
            <span className='span-mohamed'>Mohamed Wahed</span> <i className="bi bi-list fs-1" ></i>
           </button>
           <ul className="items-nav">
-             <Link to="about" spy={true} smooth={true} duration={500} activeClass="active"><li>About me</li></Link>
+            <Link to="about" spy={true} smooth={true} duration={500} activeClass="active"><li>About me</li></Link>
             <Link to="Education" spy={true} smooth={true} duration={500} activeClass="active"><li>Education</li></Link>
             <Link to="Internships" spy={true} smooth={true} duration={500} activeClass="active"><li>Internships</li></Link>
             <Link to="Skills" spy={true} smooth={true} duration={500} activeClass="active"><li>Skills</li></Link>
             <Link to="Projects" spy={true} smooth={true} duration={500} activeClass="active"><li>Projects</li></Link>
+            <Link to="Cetifications" spy={true} smooth={true} duration={500} activeClass="active"><li>Cetifications</li></Link>
             <Link to="Contact" spy={true} smooth={true} duration={500}  offset={-200} activeClass="active"><li>Contact</li></Link>
           </ul>
         </div>
@@ -77,6 +78,7 @@ function Navbar() {
             <Link to="Internships" spy={true} smooth={true} duration={500} activeClass="active"><span>Internships</span></Link><hr/>
             <Link to="Skills" spy={true} smooth={true} duration={500} activeClass="active"><span>Skills</span></Link><hr/>
             <Link to="Projects" spy={true} smooth={true} duration={500} activeClass="active"><span>Projects</span></Link><hr/>
+            <Link to="Cetifications" spy={true} smooth={true} duration={500} activeClass="active"><span>Cetifications</span></Link><hr/>
             <Link to="Contact" spy={true} smooth={true} duration={500}  offset={-200} activeClass="active"><span>Contact</span></Link>
           </ul>
         </div>
