@@ -1,7 +1,7 @@
 body{
-    background-color: #F3F3E0;
+    background-color: #212529; /* تغيير اللون الافتراضي إلى Dark Mode */
+    color: #f8f9fa; /* إضافة لون النص الافتراضي لل Dark Mode */
     transition: background-color 0.3s ease, color 0.3s ease;
-
 }
 h1,h2,h3,h4,h5,h6,p,.bi-list{
   color: #ff7b00;
@@ -185,6 +185,13 @@ button:hover:active:before{
   background-color: #212529;
   color: #f8f9fa;
 }
+
+/* إضافة Light Mode */
+body:not(.dark-mode) {
+  background-color: #F3F3E0;
+  color: #212529;
+}
+
 @media (max-width:1200px) {
     .nav-btn{
       display: block;

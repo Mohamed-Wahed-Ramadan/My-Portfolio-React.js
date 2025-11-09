@@ -6,7 +6,7 @@ import { Link, Element } from 'react-scroll';
 // import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function DarkModeToggle() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true); // تغيير القيمة الافتراضية إلى true
 
   useEffect(() => {
     // تحقق من تفضيلات المستخدم المحفوظة
@@ -14,6 +14,9 @@ function DarkModeToggle() {
     if (savedMode) {
       setDarkMode(JSON.parse(savedMode));
       document.body.classList.toggle('dark-mode', JSON.parse(savedMode));
+    } else {
+      // إذا لم تكن هناك تفضيلات محفوظة، ضع Dark Mode كافتراضي
+      document.body.classList.add('dark-mode');
     }
   }, []);
 
