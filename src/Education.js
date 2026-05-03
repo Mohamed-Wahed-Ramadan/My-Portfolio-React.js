@@ -16,16 +16,16 @@ function Education() {
             <p>Bachelor’s in Communications & Electronics <p>Grade : Very Good</p> </p>
             <hr/>
             <p>Graduation Project : ROV (Remotely Operated Underwater Vehicle) <p>Grade :  Excellent</p></p>
-            <p> Designed and developed a functional prototype of a Remotely Operated Underwater Vehicle (ROV) 
+            <p>* Designed and developed a functional prototype of a Remotely Operated Underwater Vehicle (ROV) 
               capable of performing tasks in submerged environments. </p>
-            <p> The project demonstrated knowledge of embedded systems, sensor interfacing, and remote control 
+            <p>* The project demonstrated knowledge of embedded systems, sensor interfacing, and remote control 
               technologies, bridging engineering principles with real-world problem-solving applications. </p>
-            <p> The project was awarded funding through the ITAC program, offered by ITIDA.
+            <p>* The project was awarded funding through the ITAC program, offered by ITIDA.
               It also received valuable support from Al-Gezira Club in Luxor and Talae El Nasr Club in Luxor</p>
           </div>
-          <div className="rov-img">
+          {/* <div className="rov-img">
             <img src="./img/rov.jpg" alt="mohamed wahed graduation project" loading="lazy"/>
-          </div>
+          </div> */}
         </div>
 
     </section>

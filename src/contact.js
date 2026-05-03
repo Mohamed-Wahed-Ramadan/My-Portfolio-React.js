@@ -45,9 +45,9 @@ function Contact() {
      const templateParams = {
   from_name: formData.name,
   phone: formData.phone,
-  user_email: formData.email,  // خلي بالك اسمها كده في الـ template
+  user_email: formData.email,  
   message: formData.message,
-  subject: "New message from your portoflio   " // أو ممكن تخليها ديناميكية لو حبيت
+  subject: "New message from your portoflio   " 
 };
 
       emailjs.send(

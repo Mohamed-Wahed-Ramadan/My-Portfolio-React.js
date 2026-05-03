@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+
 import Intro from './intro';
 import About from './About-me';
 import Education from './Education';
+import Experience from './Experience';
 import Intern from './intern';
 import Skills from './skills';
 import Animations from './animations';
@@ -21,8 +23,9 @@ root.render(
     <App />
     <Intro/>
     <About/>
-    <Education/>
+    <Experience/>
     <Intern/>
+    <Education/>
     <Skills/>
     <Animations/>
     <Projects/>

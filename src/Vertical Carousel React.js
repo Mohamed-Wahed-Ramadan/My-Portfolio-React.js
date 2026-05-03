@@ -20,7 +20,7 @@ const imageUrls = [
 const VerticalCarousel = () => {
   const carouselRef = useRef();
   const progress = useRef({ value: 0 });
-  const radius = 250; // قللنا نصف القطر لتقريب المسافة بين الصور إلى حوالي 5px تقريباً
+  const radius = 250; 
 
   useEffect(() => {
     const images = carouselRef.current.querySelectorAll(".carousel-image");

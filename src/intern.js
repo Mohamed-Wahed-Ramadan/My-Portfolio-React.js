@@ -8,40 +8,37 @@ function Intern() {
           <span></span>
         </div>
         <br/>
-        <section className="intern ">
-          <div className="v">
-                <div className="v2 v3">
-                  <div className="v1"></div>
-                  <span>Scholarship</span>
-                  <p>Full Stack Web Development using .NET <p>( June 2025 – Present )</p></p>
-                  <hr/>
-                  <p className="p2">Information Technology Institute (ITI)  <p>Grade :  Excellent</p></p>
-                  <p>Intensive training in backend development using C#, OOP, ASP.NET Core, ASP.NET MVC, Web API, Entity Framework, and SQL Server. </p>
-                  <p> Intensive training in frontend development using HTML, CSS, JavaScript (ES6+), TypeScript, Bootstrap, and Angular framework.</p>
-                  
-                </div>
-          </div>
-        </section>
-        <section className="intern ">
-          <div className="v">
-                <div className="v2 v3">
-                  <div className="v1"></div>
-                  <span>Internship</span>
-                  <p>Front-End Developer Intern <p>( March 2025 – May 2025 )</p></p>
-                  <hr/>
-                  <p className="p2">The Egyptian Technological Committee for Programmers  <p>Grade :  Excellent</p></p>
-                  <p >Black horse courses academy</p>
-                  <p>  The program covered core web technologies including HTML, CSS, JavaScript, Bootstrap, and React.js. </p>
-                  <p> I gained hands-on experience through a wide range of practical projects and real-world UI challenges.
-                    The course emphasized responsive design, component-based development, and modern JavaScript practices.</p>
-                    <p> This training significantly strengthened my ability to build professional, user-friendly web applications from scratch.</p>
-                    <p> I learned how to design fully responsive layouts that adapt seamlessly to all screen sizes.</p>
-                    <p> I also gained experience in adapting to AI-integrated work environments and leveraging artificial intelligence 
-                      tools effectively to enhance productivity.</p>
-                </div>
-          </div>
-        </section>
-        
+        <div className="interns-wrapper">
+          <section className="intern intern-card">
+            <div className="v">
+                  <div className="v2 v3">
+                    <div className="v1"></div>
+                    <span>Scholarship</span>
+                    <p>Full Stack Web Development using .NET <p>( June 2025 – Dec 2025 )</p></p>
+                    <hr/>
+                    <p className="p2">Information Technology Institute (ITI)  <p>Grade :  Excellent</p></p>
+                    <p>* Completed intensive Full Stack .NET training  </p> 
+                    <p>* Applied Clean Architecture, SOLID, and Agile methodologies </p>  
+                    <p>* Built real-world full-stack applications</p>
+                  </div>
+            </div>
+          </section>
+          <section className="intern intern-card">
+            <div className="v">
+                  <div className="v2 v3">
+                    <div className="v1"></div>
+                    <span>Internship</span>
+                    <p>Front-End Developer Intern <p>( March 2025 – May 2025 )</p></p>
+                    <hr/>
+                    <p className="p2">The Egyptian Technological Committee for Programmers  <p>Grade :  Excellent</p></p>
+                    <p >Black horse courses academy</p>
+                    <p>*Developed responsive web applications using React & Next.js</p>
+                    <p>* Improved UI performance and code quality </p>
+                    <p>* Gained strong frontend fundamentals</p>
+                  </div>
+            </div>
+          </section>
+        </div>
      </div>
   );
 }

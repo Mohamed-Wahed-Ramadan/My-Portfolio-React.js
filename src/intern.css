@@ -1,9 +1,41 @@
+
 .intern{
-    margin: 70px 0;
+        margin: 70px 0;
 }
 .v3{
-    margin: auto;
+        margin: auto;
 }
 .p2{
-    margin-bottom: 0;
+        margin-bottom: 0;
+}
+
+/* Wrapper for the two cards */
+.interns-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 5%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* Each card takes 45% on large screens */
+.intern-card {
+    flex: 1 1 45%;
+    max-width: 45%;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+    .interns-wrapper {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .intern-card {
+        max-width: 100%;
+        width: 100%;
+    }
 }

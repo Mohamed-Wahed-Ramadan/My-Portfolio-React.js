@@ -8,7 +8,7 @@
 
 .v2{
     background-color: black;
-    width: 60%;
+    /* width: 60%; */
     position: relative;
     /* z-index: 1; */
     padding: 7px ;
@@ -38,10 +38,10 @@
 .v2 p p{
     font-weight: bold;
 }
-.rov-img{
-    width: 35%;
+/* .rov-img{ */
+    /* width: 35%; */
     /* height: 100px; */
-}
+/* } */
 .rov-img img{
     width: 100%;
     /* height: 100%; */
